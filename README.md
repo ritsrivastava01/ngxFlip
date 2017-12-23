@@ -1,8 +1,8 @@
 
 
-# Angular based simple plug and play Flip component
+# Simple plug and play Flip component
 
-## Screenshot
+## Demo
 <p align="center">
 <img src ="https://github.com/ritsrivastava01/ngxFlip/blob/master/Flip.gif" /></p>
 
