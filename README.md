@@ -6,7 +6,7 @@
 <p align="center">
 <img src ="https://github.com/ritsrivastava01/ngxFlip/blob/master/Flip.gif" /></p>
 
-## Installation
+## Install it with npm
 npm install ngx-Flip--save
 
 ## Usage
@@ -28,7 +28,6 @@ npm install ngx-Flip--save
 ```
 ##Add selector in template file my-component.html
 ```
-  
   <ngx-flip [flip]="flipDiv">
    <div front >Front</div>
    <div back class="back">Back</div>
@@ -37,7 +36,7 @@ npm install ngx-Flip--save
   flip : boolean variable => used to flip the front and back div
   <div front class="front">Front</div> => Front Div -- please add 'front' as attribute for front div
   <div back class="back">Back</div> => Back Div -- please add 'back' as attribute for back div
-
+```
 
 ## Running unit tests
 
