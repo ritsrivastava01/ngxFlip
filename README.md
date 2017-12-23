@@ -7,7 +7,7 @@
 <img src ="https://github.com/ritsrivastava01/ngxFlip/blob/master/Flip.gif" /></p>
 
 ## Install it with npm
-npm install ngx-Flip--save
+npm install ngx-flip --save
 
 ## Usage
 ### Import the Flip Module in your app.module.ts file
@@ -35,8 +35,8 @@ npm install ngx-Flip--save
  
   Where
   flip : boolean variable => used to flip the front and back div
-  <div front class="front">Front</div> => Front Div -- please add 'front' as attribute for front div
-  <div back class="back">Back</div> => Back Div -- please add 'back' as attribute for back div
+  <div front>Front</div> => Front div -- add 'front' as attribute to identify as front div
+  <div back>Back</div> => Back div -- add 'back' as attribute to identify as back div
 ```
 
 ## Running unit tests
