@@ -4,7 +4,7 @@
 
 ## Screenshot
 
-<div style="text-align:center"><img src ="https://github.com/ritsrivastava01/ngxFlip/blob/master/flip.gif" /></div>
+<div style="text-align:center"><img src ="https://github.com/ritsrivastava01/ngxFlip/blob/master/Flip.gif" /></div>
 
 ## Installation
 npm install ngx-Flip--save
