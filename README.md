@@ -10,7 +10,7 @@
 npm install ngx-Flip--save
 
 ## Usage
-###Import the Flip Module in your app.module.ts file
+### Import the Flip Module in your app.module.ts file
 ```
   
   import { FlipModule } from 'ngx-Flip';
@@ -26,7 +26,7 @@ npm install ngx-Flip--save
   export class AppModule {}
 
 ```
-##Add selector in template file my-component.html
+## Add selector in template file my-component.html
 ```
   <ngx-flip [flip]="flipDiv">
    <div front >Front</div>
