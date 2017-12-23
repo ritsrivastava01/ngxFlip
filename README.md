@@ -3,8 +3,8 @@
 # Angular based simple plug and play Flip component
 
 ## Screenshot
-
-<div style="text-align:center"><img src ="https://github.com/ritsrivastava01/ngxFlip/blob/master/Flip.gif" /></div>
+<p align="center">
+<img src ="https://github.com/ritsrivastava01/ngxFlip/blob/master/Flip.gif" /></p>
 
 ## Installation
 npm install ngx-Flip--save
@@ -36,7 +36,7 @@ npm install ngx-Flip--save
   Where
   flip : boolean variable => used to flip the front and back div
   <div front class="front">Front</div> => Front Div -- please add 'front' as attribute for front div
-    <div back class="back">Back</div> => Back Div -- please add 'back' as attribute for back div
+  <div back class="back">Back</div> => Back Div -- please add 'back' as attribute for back div
 
 
 ## Running unit tests
