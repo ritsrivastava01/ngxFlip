@@ -26,12 +26,13 @@ npm install ngx-Flip--save
   export class AppModule {}
 
 ```
-## Add selector in template file my-component.html
+### Add selector in template file my-component.html
 ```
   <ngx-flip [flip]="flipDiv">
-   <div front >Front</div>
-   <div back class="back">Back</div>
+   <div front>Front</div>
+   <div back>Back</div>
  </ngx-flip>
+ 
   Where
   flip : boolean variable => used to flip the front and back div
   <div front class="front">Front</div> => Front Div -- please add 'front' as attribute for front div
