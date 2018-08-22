@@ -1,0 +1,24 @@
+{
+  "name": "@ritsrivastava/ngxflip",
+  "version": "6.0.0",
+  "license": "MIT",	
+  "author": "Ritesh Srivastava",	
+  "description": "Simple Angular based plug and play Flip component",	
+  "repository": {	
+    "type": "git",	
+    "url": "https://github.com/ritsrivastava01/ngxFlip.git"	
+  },	
+  "homepage": "https://github.com/ritsrivastava01/ngxFlip",	
+  "bugs": {	
+    "url": "https://github.com/ritsrivastava01/ngxFlip"	
+  },	
+  "keywords": [	
+    "angular Flip component",	
+    "angular 2 Flip"	
+  ],
+  "peerDependencies": {
+    "@angular/common": "^6.0.0-rc.0 || ^6.0.0",
+    "@angular/core": "^6.0.0-rc.0 || ^6.0.0"
+  }
+
+}

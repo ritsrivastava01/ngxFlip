@@ -2,7 +2,14 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
-import { FlipModule } from './flip/flip.module';
+import { FlipModule } from 'ngxflip';
+
+
+
+
+
+
+
 
 @NgModule({
   declarations: [
@@ -11,6 +18,7 @@ import { FlipModule } from './flip/flip.module';
   imports: [
     BrowserModule,
     FlipModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]
