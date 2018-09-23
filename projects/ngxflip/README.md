@@ -1,10 +1,10 @@
 
 
-# Simple Angualr 6+ plug and play Flip component
-#### For Angular 4 and less than, Please use https://www.npmjs.com/package/ngx-flip 
+# Simple Angular 6+ plug and play Flip component
+
 ## Demo
 <p align="center">
-<img src ="https://github.com/ritsrivastava01/ngxFlip/blob/master/Flip.gif" /></p>
+<img src ="https://github.com/ritsrivastava01/ngxFlip/raw/master/Flip.gif" /></p>
 
 ## Install it with npm
 npm install ngx-flip --save
@@ -13,7 +13,7 @@ npm install ngx-flip --save
 ### Import the Flip Module in your app.module.ts file
 ```
   
-  import { FlipModule } from 'ngx-Flip';
+  import { FlipModule } from 'ngx-flip';
   // other imports 
   
   @NgModule({
@@ -39,6 +39,10 @@ npm install ngx-flip --save
   <div back>Back</div> => Back div -- add 'back' as attribute to identify as back div
 ```
 
+## License
+
+[MIT](https://opensource.org/licenses/MIT) 
+
 ## Running unit tests
 
 coming soon. 
@@ -49,4 +53,4 @@ coming soon.
 
 ## Further help
 
-pull request always welcome!!!
+Pull request always welcome!!!
