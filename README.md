@@ -13,7 +13,7 @@ npm install ngx-flip --save
 ### Import the Flip Module in your app.module.ts file
 ```
   
-  import { FlipModule } from 'ngx-Flip';
+  import { FlipModule } from 'ngx-flip';
   // other imports 
   
   @NgModule({
@@ -28,7 +28,7 @@ npm install ngx-flip --save
 ```
 ### Add selector in template file my-component.html
 ```
-  <ngx-flip [flip]="flipDiv">
+  <ngx-flip [flip]="flipDiv" (click)="onClick()">
    <div front>Front</div>
    <div back>Back</div>
  </ngx-flip>
@@ -37,6 +37,18 @@ npm install ngx-flip --save
   flip : boolean variable => used to flip the front and back div
   <div front>Front</div> => Front div -- add 'front' as attribute to identify as front div
   <div back>Back</div> => Back div -- add 'back' as attribute to identify as back div
+```
+
+```typescript
+import { Component } from '@angular/core';
+
+@Component({ /* ... */ })
+export class MyComponent {
+  flipDiv = false;
+  onClick() {
+    this.flipDiv = !this.flipDiv;
+  }
+}
 ```
 
 ## Running unit tests
