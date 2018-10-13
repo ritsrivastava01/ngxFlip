@@ -53,7 +53,9 @@ export class MyComponent {
 
 ## Running unit tests
 
-coming soon. 
+```code
+ng test
+```
 
 ## Running end-to-end tests
 
