@@ -25,7 +25,6 @@
     "@angular/platform-browser-dynamic": "^7.1.2",
     "@angular/router": "^7.1.2",
     "core-js": "^2.6.0",
-    "ngx-flip": "^6.1.1",
     "rxjs": "^6.3.3",
     "zone.js": "~0.8.26"
   },
