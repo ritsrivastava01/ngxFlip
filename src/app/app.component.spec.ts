@@ -16,11 +16,6 @@ describe('AppComponent', () => {
     const app = fixture.debugElement.componentInstance;
     expect(app).toBeTruthy();
   }));
-  it(`should have as title 'ngxflip-app'`, async(() => {
-    const fixture = TestBed.createComponent(AppComponent);
-    const app = fixture.debugElement.componentInstance;
-    expect(app.title).toEqual('ngxflip-app');
-  }));
   it('should render ngx-flip element ', async(() => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();

@@ -18,16 +18,10 @@
       "dom"
     ],
     "paths": {
-      "flip": [
-        "dist/flip"
-      ],
-      "flip/*": [
-        "dist/flip/*"
-      ],
-      "ngxflip": [
+      "ngx-flip": [
         "dist/ngxflip"
       ],
-      "ngxflip/*": [
+      "ngx-flip/*": [
         "dist/ngxflip/*"
       ]
     }

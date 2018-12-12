@@ -1,7 +1,6 @@
 import {
-  ChangeDetectionStrategy, Component, HostListener, Input, OnChanges, OnInit, Renderer2, SimpleChange, SimpleChanges,
-  ViewChild,
-  ViewChildren
+  ChangeDetectionStrategy, Component, Input, OnChanges, OnInit, Renderer2, SimpleChanges,
+  ViewChild
 } from '@angular/core';
 
 @Component({
