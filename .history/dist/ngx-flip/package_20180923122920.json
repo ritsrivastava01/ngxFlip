@@ -1,0 +1,36 @@
+{
+  "name": "@ritsrivastava/ngxflip",
+  "version": "6.0.0",
+  "license": "MIT",
+  "author": "Ritesh Srivastava",
+  "description": "Simple Angular based plug and play Flip component",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ritsrivastava01/ngxFlip.git"
+  },
+  "homepage": "https://github.com/ritsrivastava01/ngxFlip",
+  "bugs": {
+    "url": "https://github.com/ritsrivastava01/ngxFlip"
+  },
+  "keywords": [
+    "angular Flip component",
+    "angular 2 Flip"
+  ],
+  "peerDependencies": {
+    "@angular/common": "^6.0.0-rc.0 || ^6.0.0",
+    "@angular/core": "^6.0.0-rc.0 || ^6.0.0"
+  },
+  "main": "bundles/ritsrivastava-ngxflip.umd.js",
+  "module": "fesm5/ritsrivastava-ngxflip.js",
+  "es2015": "fesm2015/ritsrivastava-ngxflip.js",
+  "esm5": "esm5/ritsrivastava-ngxflip.js",
+  "esm2015": "esm2015/ritsrivastava-ngxflip.js",
+  "fesm5": "fesm5/ritsrivastava-ngxflip.js",
+  "fesm2015": "fesm2015/ritsrivastava-ngxflip.js",
+  "typings": "ritsrivastava-ngxflip.d.ts",
+  "metadata": "ritsrivastava-ngxflip.metadata.json",
+  "sideEffects": false,
+  "dependencies": {
+    "tslib": "^1.9.0"
+  }
+}

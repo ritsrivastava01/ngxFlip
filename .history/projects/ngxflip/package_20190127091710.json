@@ -1,6 +1,6 @@
 {
   "name": "ngx-flip",
-  "version": "7.0.2",
+  "version": "7.0.0",
   "license": "MIT",	
   "author": "Ritesh Srivastava",	
   "description": "Simple Angular based plug and play Flip component",	
@@ -14,7 +14,7 @@
   },	
   "keywords": [	
     "angular 2 Flip",
-    "angular Flip component",
+    "angular 6 Flip component",
     "Flip Component"	
   ],
   "peerDependencies": {
