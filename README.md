@@ -1,6 +1,13 @@
 
 
+
+
 # Simple plug and play Flip component
+
+[![npm version](https://badge.fury.io/js/ngx-flip.svg)](https://badge.fury.io/js/ngx-flip)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/ritsrivastava01/ngxFlip.svg)
+![GitHub stars](https://img.shields.io/github/stars/ritsrivastava01/ngxFlip.svg)
+![GitHub License](https://img.shields.io/badge/license-MIT-green.svg)
 
 ## Demo
 <p align="center">
@@ -64,3 +71,7 @@ coming soon.
 ## Further help
 
 pull request always welcome!!!
+
+## License
+
+This project is licensed under the terms of the **MIT** license.
