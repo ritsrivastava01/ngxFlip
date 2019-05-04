@@ -74,4 +74,4 @@ pull request always welcome!!!
 
 ## License
 
-This project is licensed under the terms of the **MIT** license.
+This project is licensed under the terms of the **[MIT](https://opensource.org/licenses/MIT) ** license.

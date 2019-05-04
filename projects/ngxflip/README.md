@@ -1,7 +1,14 @@
 
 
 # Simple Angular based plug and play Flip component
+
+[![npm version](https://badge.fury.io/js/ngx-flip.svg)](https://badge.fury.io/js/ngx-flip)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/ritsrivastava01/ngxFlip.svg)
+![GitHub stars](https://img.shields.io/github/stars/ritsrivastava01/ngxFlip.svg)
+![GitHub License](https://img.shields.io/badge/license-MIT-green.svg)
+
 *now supported Angular 7+*
+
 ## Demo
 <p align="center">
 <img src ="https://github.com/ritsrivastava01/ngxFlip/raw/master/Flip.gif" /></p>
