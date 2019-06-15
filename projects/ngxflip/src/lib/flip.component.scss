@@ -1,6 +1,7 @@
 :host {
   perspective: 1000px;
   display: block;
+
   .flipper {
     transition: 0.6s;
     transform-style: preserve-3d;
@@ -16,19 +17,22 @@
     position: absolute;
     top: 0;
     left: 0;
-
+    backface-visibility: hidden;
     transition-property: z-index;
     transition-duration: 0.3s;
     transition-timing-function: ease-in-out;
     transition-delay: 0s;
   }
+
   .front {
     z-index: 2;
     transform: rotateY(0deg);
   }
+
   .back {
     transform: rotateY(180deg);
   }
+
   .rotate {
     -webkit-transform: rotateY(180deg);
     -moz-transform: rotateY(180deg);
