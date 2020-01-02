@@ -8,6 +8,7 @@
 ![GitHub pull requests](https://img.shields.io/github/issues-pr/ritsrivastava01/ngxFlip.svg)
 ![GitHub stars](https://img.shields.io/github/stars/ritsrivastava01/ngxFlip.svg)
 ![GitHub License](https://img.shields.io/badge/license-MIT-green.svg)
+[![codebeat badge](https://codebeat.co/badges/c315d699-854f-42bb-8af8-7cf706de58a4)](https://codebeat.co/projects/github-com-ritsrivastava01-ngxflip-master)
 
 ## Demo
 <p align="center">
