@@ -1,6 +1,6 @@
 {
   "name": "ngx-flip",
-  "version": "7.1.0",
+  "version": "9.0.0",
   "license": "MIT",
   "author": "Ritesh Srivastava",
   "description": "Simple Angular based plug and play Flip component",
@@ -18,8 +18,8 @@
     "Flip Component"
   ],
   "peerDependencies": {
-    "@angular/common": ">6.0.0",
-    "@angular/core": ">6.0.0"
+    "@angular/common": ">=9.0.0",
+    "@angular/core": ">=9.0.0"
   }
 
 }

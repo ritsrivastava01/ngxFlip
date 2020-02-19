@@ -7,7 +7,7 @@
 ![GitHub stars](https://img.shields.io/github/stars/ritsrivastava01/ngxFlip.svg)
 ![GitHub License](https://img.shields.io/badge/license-MIT-green.svg)
 
-*now supported Angular 7+*
+*now supported Angular 9+*
 
 ## Demo
 <p align="center">

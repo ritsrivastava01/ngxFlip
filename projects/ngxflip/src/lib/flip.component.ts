@@ -1,5 +1,12 @@
 import {
-  ChangeDetectionStrategy, Component, Input, OnChanges, OnInit, Renderer2, SimpleChanges,
+  AfterViewInit,
+  ChangeDetectionStrategy,
+  Component,
+  Input,
+  OnChanges,
+  OnInit,
+  Renderer2,
+  SimpleChanges,
   ViewChild
 } from '@angular/core';
 
@@ -11,18 +18,22 @@ import {
 })
 export class FlipComponent implements OnInit, OnChanges {
 
+  @Input() flip: boolean;
+  @ViewChild('flipContainer', { static: true }) private flipContainer;
+
   constructor(private renderer: Renderer2) {
   }
 
-  @ViewChild('flipContainer') private flipContainer;
-  @Input() flip: boolean;
+  ngOnInit(): void {
+    this.rotate();
+  }
 
-  ngOnInit() {
-    this.rotate();
-  }
   ngOnChanges(change: SimpleChanges) {
-    this.rotate();
+    if (this.flipContainer !== undefined) {
+      this.rotate();
+    }
   }
+
   rotate() {
     if (this.flip) {
       this.renderer.addClass(this.flipContainer.nativeElement, 'rotate');
